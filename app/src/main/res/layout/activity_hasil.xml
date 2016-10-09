@@ -10,9 +10,4 @@
     android:orientation="vertical"
     tools:context="id.sch.smktelkom_mlg.learn.intent1.HasilActivity">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonBack"
-        android:text="Kembali"/>
 </LinearLayout>
