@@ -10,10 +10,21 @@
     android:orientation="vertical"
     tools:context="id.sch.smktelkom_mlg.learn.intent1.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextNama"
+        android:hint="Nama"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/editTextUmur"
+        android:hint="Umur"/>
 
     <Button
         android:layout_width="match_parent"
